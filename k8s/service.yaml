@@ -3,10 +3,9 @@ kind: Service
 metadata:
   name: student-management
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: student-management
   ports:
     - port: 80
       targetPort: 8080
-      nodePort: 30080

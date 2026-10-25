@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: student-management
-          image: DOCKERHUB_USER/student-management:latest
+          image: harshvibhoresharma/student-management:latest
           ports:
             - containerPort: 8080
           resources:
