@@ -26,3 +26,4 @@ GitHub Actions -> build + test -> Docker image -> Docker Hub -> Kubernetes.
 1. build-test: `mvn verify` (runs unit tests)
 2. docker: builds image, pushes `:sha` and `:latest` (main branch only)
 3. deploy: updates image tag, `kubectl apply`, waits for rollout
+CI demo
